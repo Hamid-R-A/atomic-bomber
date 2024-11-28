@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="view.ProfileMenuView">
+        <VBox alignment="CENTER" layoutX="180.0" layoutY="69.0" prefHeight="262.0" prefWidth="230.0" spacing="10" BorderPane.alignment="CENTER">
+            <Label alignment="CENTER" contentDisplay="CENTER" text="your new username" textAlignment="CENTER" />
+            <TextField fx:id="newUsername" maxWidth="200" />
+            <Label text="your new password" />
+            <TextField fx:id="newPassword" maxWidth="200" />
+            <Button onMouseClicked="#changingNameAndPassword" text="chang username and password" />
+            <Button onMouseClicked="#deleteAccount" prefHeight="26.0" prefWidth="180.0" text="delete account" />
+            <Button layoutX="428.0" layoutY="288.0" mnemonicParsing="false" onMouseClicked="#goingToMainMenu" prefHeight="26.0" prefWidth="177.0" text="main menu" />
+        </VBox>
+         <Button layoutY="1.0" onMouseClicked="#goToRegisterMenu" prefHeight="26.0" prefWidth="132.0" text="back to register menu" textFill="#222c94" />
+         <Button layoutX="467.0" layoutY="1.0" onMouseClicked="#goToAvatarMenu" prefHeight="26.0" prefWidth="140.0" text="choose an avatar" textFill="#13167d" />
+   <Label fx:id="confirmChangingLabel" layoutX="196.0" layoutY="38.0" prefHeight="18.0" prefWidth="194.0" text="" />
+</AnchorPane>

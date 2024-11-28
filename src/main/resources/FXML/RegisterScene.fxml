@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<BorderPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.2-ea"
+            xmlns:fx="http://javafx.com/fxml/1" fx:controller="view.RegisterMenuView">
+    <center>
+        <VBox alignment="CENTER" spacing="10">
+            <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="18.0" prefWidth="125.0"
+                   text="enter your username"/>
+            <TextField fx:id="username" alignment="CENTER" maxWidth="200" prefHeight="26.0" prefWidth="50.0"
+                       promptText="username" BorderPane.alignment="CENTER">
+                <font>
+                    <Font size="10.0"/>
+                </font>
+            </TextField>
+            <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="18.0" prefWidth="125.0"
+                   text="enter your password"/>
+            <TextField fx:id="password" alignment="CENTER" maxWidth="200" prefHeight="26.0" prefWidth="396.0"
+                       promptText="password"/>
+            <Button mnemonicParsing="false" onMouseClicked="#register" prefHeight="26.0" prefWidth="93.0"
+                    text="Register"/>
+            <Button mnemonicParsing="false" onMouseClicked="#login" prefHeight="26.0" prefWidth="93.0" text="Login"/>
+            <Button mnemonicParsing="false" prefHeight="26.0" prefWidth="92.0" text="play as guest" onMouseClicked="#openGame"/>
+        </VBox>
+
+    </center>
+
+</BorderPane>

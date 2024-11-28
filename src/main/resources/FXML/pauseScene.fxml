@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.2-ea"
+            xmlns:fx="http://javafx.com/fxml/1" fx:controller="view.PauseView">
+    <children>
+        <ImageView fx:id="soundOn" fitHeight="73.0" fitWidth="88.0" layoutX="14.0" layoutY="14.0"
+                   onMouseClicked="#turnOfMusic" pickOnBounds="true" preserveRatio="true" visible="true">
+            <image>
+                <Image url="@../assets/soundonbutton.png"/>
+            </image>
+        </ImageView>
+        <ImageView fx:id="soundOff" fitHeight="81.0" fitWidth="88.0" layoutX="14.0" layoutY="14.0"
+                   onMouseClicked="#playMusic" pickOnBounds="true" preserveRatio="true" visible="false">
+            <image>
+                <Image url="@../assets/soundoffbutton.png"/>
+            </image>
+        </ImageView>
+        <Button layoutX="460.0" layoutY="169.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="102.0"
+                text="save and exit"/>
+        <Button layoutX="329.0" layoutY="169.0" mnemonicParsing="false" onMouseClicked="#goToMainMenu" prefHeight="26.0"
+                prefWidth="102.0" text="exit"/>
+        <Button layoutX="380.0" layoutY="104.0" mnemonicParsing="false" onMouseClicked="#continueGame" prefHeight="26.0"
+                prefWidth="132.0" text="continue" textFill="blue"/>
+        <Button layoutX="43.0" layoutY="248.0" mnemonicParsing="false" onMouseClicked="#playMusic1" text="music1"/>
+        <Button layoutX="43.0" layoutY="280.0" mnemonicParsing="false" onMouseClicked="#playMusic2" text="music2"/>
+        <Button layoutX="43.0" layoutY="314.0" mnemonicParsing="false" onMouseClicked="#playMusic3" text="music3"/>
+        <Label layoutX="143.0" layoutY="130.0" text="SPACE      shoot bomb"/>
+        <Label layoutX="143.0" layoutY="151.0" prefHeight="18.0" prefWidth="102.0" text="Arrows         going"/>
+        <Label layoutX="143.0" layoutY="173.0" prefHeight="18.0" prefWidth="113.0" text="R          shoot nuclear"/>
+        <Label layoutX="143.0" layoutY="191.0" text="T     create tank"/>
+        <Label layoutX="140.0" layoutY="209.0" text="G     add nuclear"/>
+        <Label layoutX="146.0" layoutY="227.0" text="CONTROL     add cluster"/>
+        <Label layoutX="146.0" layoutY="245.0" text="C      shoot cluster"/>
+        <Label alignment="CENTER" contentDisplay="CENTER" layoutX="113.0" layoutY="95.0" prefHeight="35.0"
+               prefWidth="208.0" text="Guide of the game" textFill="#e10fbb">
+            <font>
+                <Font size="24.0"/>
+            </font>
+        </Label>
+    </children>
+</AnchorPane>

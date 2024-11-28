@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="view.SettingView">
+    <children>
+        <ImageView fx:id="soundOn" fitHeight="73.0" fitWidth="88.0" layoutX="14.0" layoutY="14.0" onMouseClicked="#turnOfMusic" pickOnBounds="true" preserveRatio="true" visible="true">
+            <image>
+                <Image url="@../assets/soundonbutton.png" />
+            </image>
+        </ImageView>
+        <ImageView fx:id="soundOff" fitHeight="81.0" fitWidth="88.0" layoutX="14.0" layoutY="14.0" onMouseClicked="#playMusic" pickOnBounds="true" preserveRatio="true" visible="false">
+            <image>
+                <Image url="@../assets/soundoffbutton.png" />
+            </image>
+        </ImageView>
+      <Button layoutX="442.0" layoutY="20.0" mnemonicParsing="false" onMouseClicked="#backToMainMenu" text="back to main menu" />
+      <CheckBox fx:id="arrowUse" layoutX="455.0" layoutY="321.0" mnemonicParsing="false" onMouseClicked="#useArrows" text="using Arrow keys" />
+      <CheckBox fx:id="WDSAUse" layoutX="455.0" layoutY="339.0" mnemonicParsing="false" onMouseClicked="#useWDSA" text="using WDSA" />
+      <CheckBox fx:id="blackWhite" layoutX="61.0" layoutY="330.0" mnemonicParsing="false" onMouseClicked="#blackWhiteGame" text="blackWhite" />
+      <CheckBox fx:id="hard" layoutX="266.0" layoutY="339.0" mnemonicParsing="false" onMouseClicked="#changeTheHardlessToHard" text="hard" />
+      <CheckBox fx:id="medium" layoutX="267.0" layoutY="321.0" mnemonicParsing="false" onMouseClicked="#changeTheHardlessToMedium" text="medium" />
+      <CheckBox fx:id="easy" layoutX="267.0" layoutY="303.0" mnemonicParsing="false" onMouseClicked="#changeTheHardlessToEasy" text="easy" />
+      <Label layoutX="234.0" layoutY="276.0" text="Hardless of the game" />
+      <Label layoutX="469.0" layoutY="285.0" text="controll buttons" />
+    </children>
+</AnchorPane>

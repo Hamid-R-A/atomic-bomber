@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="8d02f670-aeef-4d58-89d7-7cc8af6f0cf5" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/main/java/controller/GameController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/java/model/Apartment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/java/model/Bullet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/java/model/ClusterMissile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/java/model/Fire.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/java/model/Game.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/java/model/Mig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/java/model/Missile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/java/model/NuclearMissile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/java/model/Plane.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/java/model/Tank.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/java/model/Tree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/java/model/Trench.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/java/model/Truck.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/java/view/GameView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/java/view/MenuView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/java/view/PauseView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/java/view/PointsView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/java/view/SettingView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/java/view/animations/BulletAnimation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/java/view/animations/ClusterMissileAnimation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/java/view/animations/ExplosingTheMissile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/java/view/animations/FlyingAnimation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/java/view/animations/MigAnimation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/java/view/animations/MissileAnimation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/java/view/animations/NuclearMissilAnimation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/java/view/animations/TankAnimation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/java/view/animations/TruckAnimation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/resources/FXML/MenuScene.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/resources/FXML/SettingScene.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/resources/FXML/pauseScene.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/resources/FXML/pointsScene.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/java/controller/ProfileMenuController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/java/controller/RegisterMenuController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/java/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/main/java/model/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/java/view/AvatarView.java" beforeDir="false" afterPath="$PROJECT_DIR$/main/java/view/AvatarView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/java/view/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/main/java/view/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/java/view/ProfileMenuView.java" beforeDir="false" afterPath="$PROJECT_DIR$/main/java/view/ProfileMenuView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/java/view/RegisterMenuView.java" beforeDir="false" afterPath="$PROJECT_DIR$/main/java/view/RegisterMenuView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/resources/FXML/AvatarScene.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/main/resources/FXML/AvatarScene.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/resources/FXML/ProfileScene.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/main/resources/FXML/ProfileScene.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/resources/FXML/RegisterScene.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/main/resources/FXML/RegisterScene.fxml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 2
+}]]></component>
+  <component name="ProjectId" id="2gsPDeSrPKkQg3o9D8wadDRaYtd" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/ASUS/Desktop/Programming/graphicQuestion/src",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-21.0.2-corretto-21.0.2-4caba194b151-51586f01" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8d02f670-aeef-4d58-89d7-7cc8af6f0cf5" name="Changes" comment="" />
+      <created>1716483194000</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1716483194000</updated>
+      <workItem from="1716483195086" duration="32000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

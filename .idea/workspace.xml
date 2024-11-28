@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="0cdca9f3-a3ea-428b-8b9a-d6ba9ac8a849" name="Changes" comment="before finishing avatar">
+      <change afterPath="$PROJECT_DIR$/src/main/java/controller/GameController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/model/Apartment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/model/Bullet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/model/ClusterMissile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/model/Fire.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/model/Game.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/model/Mig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/model/Missile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/model/NuclearMissile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/model/Plane.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/model/Tank.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/model/Tree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/model/Trench.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/model/Truck.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/view/GameView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/view/LastControll.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/view/MenuView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/view/PauseView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/view/PointsView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/view/SettingView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/view/animations/BulletAnimation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/view/animations/ClusterMissileAnimation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/view/animations/ExplosingTheMissile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/view/animations/FlyingAnimation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/view/animations/MigAnimation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/view/animations/MissileAnimation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/view/animations/NuclearMissilAnimation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/view/animations/TankAnimation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/view/animations/TruckAnimation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/FXML/MenuScene.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/FXML/SettingScene.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/FXML/lastStage.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/FXML/pauseScene.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/FXML/pointsScene.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/controller/ProfileMenuController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/controller/RegisterMenuController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/view/AvatarView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/view/AvatarView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/view/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/view/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/view/ProfileMenuView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/view/ProfileMenuView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/view/RegisterMenuView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/view/RegisterMenuView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/FXML/AvatarScene.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/FXML/AvatarScene.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/FXML/ProfileScene.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/FXML/ProfileScene.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/FXML/RegisterScene.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/FXML/RegisterScene.fxml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="module-info" />
+        <option value="FxmlFile" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
+  <component name="ProjectId" id="2flJ9Ax6chWLpBNyUE73lBUI31h" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.AvatarView.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MenuScene.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MenuView.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ProfileMenuView.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SettingView.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Test.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Unnamed.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/ASUS/Desktop/Programming/graphicQuestion&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/ASUS/Desktop/Programming/graphicQuestion/src/main/java/org/example/Main.java&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="controller" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Main" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="view.Main" />
+      <module name="graphicQuestion" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="view.Main" />
+      <module name="graphicQuestion" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Main" />
+      <item itemvalue="Application.Test" />
+    </list>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-21.0.2-corretto-21.0.2-4caba194b151-51586f01" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0cdca9f3-a3ea-428b-8b9a-d6ba9ac8a849" name="Changes" comment="" />
+      <created>1714369579157</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1714369579157</updated>
+      <workItem from="1714369580382" duration="8897000" />
+      <workItem from="1714382757530" duration="1789000" />
+      <workItem from="1714384589602" duration="3238000" />
+      <workItem from="1714397824037" duration="3380000" />
+      <workItem from="1714401616803" duration="1180000" />
+      <workItem from="1714462882268" duration="2942000" />
+      <workItem from="1714467597393" duration="3509000" />
+      <workItem from="1714473646343" duration="7597000" />
+      <workItem from="1714484697213" duration="1845000" />
+      <workItem from="1714486990280" duration="2086000" />
+      <workItem from="1714500418223" duration="2631000" />
+      <workItem from="1714541889278" duration="665000" />
+      <workItem from="1714542568765" duration="4566000" />
+      <workItem from="1714557647039" duration="1154000" />
+      <workItem from="1714560721102" duration="69000" />
+      <workItem from="1714561042054" duration="939000" />
+      <workItem from="1714575400370" duration="2184000" />
+      <workItem from="1714584950596" duration="5132000" />
+      <workItem from="1714626203154" duration="1351000" />
+      <workItem from="1714643522445" duration="1217000" />
+      <workItem from="1714650708265" duration="3041000" />
+      <workItem from="1714675260298" duration="2862000" />
+      <workItem from="1714730693759" duration="508000" />
+      <workItem from="1714734594831" duration="2876000" />
+      <workItem from="1714748727390" duration="2397000" />
+      <workItem from="1715004909201" duration="4000" />
+      <workItem from="1715105326140" duration="3963000" />
+      <workItem from="1715112020801" duration="1687000" />
+      <workItem from="1715147945073" duration="6613000" />
+      <workItem from="1715159693839" duration="1065000" />
+      <workItem from="1715164477437" duration="5901000" />
+      <workItem from="1715175354197" duration="7216000" />
+      <workItem from="1715237508107" duration="3214000" />
+      <workItem from="1715245555879" duration="3210000" />
+      <workItem from="1715250133539" duration="95000" />
+      <workItem from="1715252816578" duration="1185000" />
+      <workItem from="1715263605655" duration="3254000" />
+      <workItem from="1715329510481" duration="91000" />
+      <workItem from="1715333932215" duration="852000" />
+      <workItem from="1715334854667" duration="5950000" />
+      <workItem from="1715362153695" duration="932000" />
+      <workItem from="1715495430097" duration="156000" />
+      <workItem from="1715506132187" duration="6862000" />
+      <workItem from="1715522739435" duration="3485000" />
+      <workItem from="1715532661387" duration="156000" />
+      <workItem from="1715543723168" duration="1902000" />
+      <workItem from="1715582171200" duration="5378000" />
+      <workItem from="1715594297101" duration="1506000" />
+      <workItem from="1715618833733" duration="2987000" />
+      <workItem from="1715626764866" duration="3637000" />
+      <workItem from="1715668723336" duration="6255000" />
+      <workItem from="1715677247015" duration="4868000" />
+      <workItem from="1715688158695" duration="5423000" />
+      <workItem from="1715698045089" duration="3437000" />
+      <workItem from="1715705236411" duration="321000" />
+      <workItem from="1715757943295" duration="433000" />
+      <workItem from="1715761562371" duration="4170000" />
+      <workItem from="1715771359777" duration="3153000" />
+      <workItem from="1715777970488" duration="2742000" />
+      <workItem from="1715840199251" duration="10874000" />
+      <workItem from="1715866245753" duration="2896000" />
+      <workItem from="1715877710215" duration="3976000" />
+      <workItem from="1715886647216" duration="2768000" />
+      <workItem from="1716023648916" duration="6480000" />
+      <workItem from="1716030694221" duration="197000" />
+      <workItem from="1716039158337" duration="3162000" />
+      <workItem from="1716050420081" duration="3450000" />
+      <workItem from="1716060089324" duration="2889000" />
+      <workItem from="1716095676823" duration="7719000" />
+      <workItem from="1716114991075" duration="2704000" />
+      <workItem from="1716124164708" duration="5926000" />
+      <workItem from="1716130222009" duration="189000" />
+      <workItem from="1716133867485" duration="334000" />
+      <workItem from="1716137010773" duration="8325000" />
+      <workItem from="1716182332540" duration="8946000" />
+      <workItem from="1716196395182" duration="6584000" />
+      <workItem from="1716225093711" duration="2589000" />
+      <workItem from="1716229592963" duration="1888000" />
+      <workItem from="1716270073698" duration="1114000" />
+      <workItem from="1716272008800" duration="6814000" />
+      <workItem from="1716282291131" duration="5694000" />
+      <workItem from="1716291231319" duration="9264000" />
+      <workItem from="1716301699646" duration="1857000" />
+      <workItem from="1716358631801" duration="4000" />
+      <workItem from="1716361583212" duration="52000" />
+      <workItem from="1716401004020" duration="173000" />
+      <workItem from="1717053051841" duration="1094000" />
+      <workItem from="1717565154925" duration="1830000" />
+      <workItem from="1717568074092" duration="2803000" />
+      <workItem from="1717570892123" duration="2139000" />
+      <workItem from="1717577404205" duration="1313000" />
+      <workItem from="1717579395153" duration="242000" />
+      <workItem from="1717583282118" duration="3132000" />
+      <workItem from="1717592126047" duration="426000" />
+      <workItem from="1717597156948" duration="1218000" />
+      <workItem from="1717655889847" duration="2315000" />
+      <workItem from="1717664116708" duration="609000" />
+      <workItem from="1717670837126" duration="599000" />
+      <workItem from="1717683712514" duration="599000" />
+      <workItem from="1717744725592" duration="394000" />
+      <workItem from="1717753597837" duration="620000" />
+      <workItem from="1719648170527" duration="124000" />
+      <workItem from="1719652220717" duration="105000" />
+      <workItem from="1719660498701" duration="2354000" />
+      <workItem from="1719664390360" duration="6753000" />
+      <workItem from="1719673732806" duration="47000" />
+      <workItem from="1719687706243" duration="37000" />
+      <workItem from="1719706732810" duration="14000" />
+      <workItem from="1719706782271" duration="25000" />
+      <workItem from="1719707424907" duration="724000" />
+      <workItem from="1719708237654" duration="7000" />
+    </task>
+    <task id="LOCAL‎−۰۰۰۰۱" summary="before finishing avator">
+      <option name="closed" value="true" />
+      <created>1714473818989</created>
+      <option name="number" value="LOCAL‎−۰۰۰۰۱" />
+      <option name="presentableId" value="LOCAL‎−۰۰۰۰۱" />
+      <updated>1714473818989</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="before finishing avator" />
+    <option name="LAST_COMMIT_MESSAGE" value="before finishing avator" />
+  </component>
+</project>

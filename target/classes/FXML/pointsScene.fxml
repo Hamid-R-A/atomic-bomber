@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="view.PointsView">
+   <children>
+      <Label alignment="CENTER" contentDisplay="CENTER" layoutX="437.0" layoutY="6.0" prefHeight="18.0" prefWidth="104.0" text="rank by kill" />
+      <Label layoutX="239.0" layoutY="6.0" prefHeight="18.0" prefWidth="104.0" text="rank by accuracy" />
+      <Label layoutX="46.0" layoutY="6.0" prefHeight="18.0" prefWidth="87.0" text="rank by hardless" />
+      <Button layoutX="30.0" layoutY="353.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="134.0" onMouseClicked="#backToMainMenu" text="back to main menu" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="465.0" prefWidth="701.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="view.AvatarView">
+    <children>
+        <Label layoutX="443.0" layoutY="166.0" text="choose an avatar" textFill="#891b1b" />
+<!--        <Button layoutX="428.0" layoutY="154.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="137.0" text="random avatar" onMouseClicked="#chooseRandomImage" />-->
+        <Button layoutX="427.0" layoutY="206.0" mnemonicParsing="false" onAction="#chooseImageFromComputer" prefHeight="26.0" prefWidth="138.0" text="choose a file" />
+        <ImageView fx:id="liverpool" fitHeight="117.0" fitWidth="128.0" layoutX="14.0" layoutY="29.0" onMousePressed="#bringToMyAvatar" styleClass="clickable">
+            <image>
+                <Image url="@../images/Liverpool.png" />
+            </image>
+        </ImageView>
+        <ImageView fx:id="arsenal" fitHeight="117.0" fitWidth="128.0" layoutX="14.0" layoutY="282.0" onMousePressed="#bringToMyAvatar" styleClass="clickable">
+            <image>
+                <Image url="@../images/Arsenal.png" />
+            </image>
+        </ImageView>
+        <ImageView fx:id="manchester" fitHeight="117.0" fitWidth="128.0" layoutX="14.0" layoutY="155.0" onMousePressed="#bringToMyAvatar" styleClass="clickable">
+            <image>
+                <Image url="@../images/Manchester.png" />
+            </image>
+        </ImageView>
+      <ImageView fx:id="myChosenAvatar" fitHeight="150.0" fitWidth="169.0" layoutX="222.0" layoutY="125.0" onDragDropped="#dragDropped" onDragOver="#dragOver" pickOnBounds="true" preserveRatio="true" />
+      <Button layoutX="427.0" layoutY="259.0" mnemonicParsing="false" onMouseClicked="#backToProfile" prefHeight="26.0" prefWidth="138.0" text="back to profile menu" />
+
+    </children>
+</AnchorPane>
